@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="img/nosotros.png" type="icon" />
+    <title>ATLAS GYM</title>
+</head>
+
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <h1>ATLAS <span class="txtRojo">GYM</span></h1>
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">Inicio</a>
+                <a href="#nosotros" onclick="seleccionar()">Nosotros</a>
+                <a href="#sabores" onclick="seleccionar()">Servicios</a>
+                <a href="#precio" onclick="seleccionar()">Planes</a>
+                <a href="#comodidades" onclick="seleccionar()">Comodidades</a>
+                <a href="#galeria" onclick="seleccionar()">Galería</a>
+                <a href="#contacto" onclick="seleccionar()">Contacto</a>
+            </nav>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-seccion">
+            <div class="info">
+                <h2>HAZ QUE <span class="txtRojo">OCURRA</span></h2>
+                <p>Triunfar es más facil de lo que piensas!</p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCION NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+        <div class="fila">
+            <div class="col">
+                <img src="img/nosotros.png" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+
+                    <div class="info">
+                       
+                        <h2>NOSOTROS</h2>
+                    </div>
+                </div>
+
+                <p>Somos un espacio inteligente de entrenamiento y vida saludable, con una mirada integral
+                    multidisciplinaria para atender con efectividad a nuestros asociados. Somos la
+                    respuesta evolucionada a la nueva demanda existente en salud y deportes; con características únicas
+                    en la region .</p>
+                <p>Nos focalizamos en desarrollar un nuevo concepto prestacional, que dispone de versatilidad,
+                    innovación y eficiencia.. Se trata de una gama de servicios integrados y simultáneos, 
+                    con un esquema de seguimiento personalizado y basados en la
+                    calidad de productos y servicios.
+                    Atlas Gym, un espacio de entrenamiento inteligente y saludable.</p>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section id="sabores"><br><br><br>
+        <h2>Servicios</h2><br><br><br>
+        <div class="fila">
+            <div class="item">
+                <div class="icono">
+                    <img src="img/30.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Clases de Fitnes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/31.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Clases de Crossfit</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/32.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Clases de Boxeo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div><br><br><br><br><br>
+
+        <div class="fila">
+            <div class="item">
+                <div class="icono">
+                    <img src="img/33.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Clases de Funcional</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/34.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Clases de Cardio</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/35.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Clases de Bicicleta</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>     
+
+
+
+
+    </section>
+
+
+
+    <!-- SECCION PRECIOS -->
+    <section id="precio">
+        <h2>PLANES Y PRECIOS</h2><BR>
+        <div class="container">
+
+            <div class="tabla">
+
+                <div class="titulo">
+
+                    <h2>PASE POR CLASE</h2>
+                </div>
+
+                <div class="precio">
+                    <h3>$ <span>500</span></h3>
+                </div>
+
+                <div class="descripcion">
+                    <ul>
+                        <li><i class="fa fa-check"></i> Derecho a una clase</li>
+                        <li><i class="fa fa-check"></i> Una vez a la semana</li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="tabla">
+                <div class="titulo">
+
+                    <h2>TRES CLASES A LA SEMANA</h2>
+                </div>
+
+                <div class="precio">
+                    <h3>$ <span>1.200</span></h3>
+                </div>
+
+                <div class="descripcion">
+                    <ul>
+                        <li><i class="fa fa-check"></i> Derecho a una clase</li>
+                        <li><i class="fa fa-check"></i> Tres dias a la semana</li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+           
+        </div>
+        <div class="container">
+            <div class="tabla">
+                <div class="titulo">
+
+                    <h2>SEMANAL</h2>
+                </div>
+
+                <div class="precio">
+                    <h3>$ <span>2.500</span></h3>
+                </div>
+
+                <div class="descripcion">
+                    <ul>
+                        <li><i class="fa fa-check"></i> Derecho a una clase</li>
+                        <li><i class="fa fa-check"></i> 6 dias a la semana</li>
+                        <li><i class="fa fa-check"></i> Acceso a todos los servicios</li>
+                        <li><i class="fa fa-check"></i> Profesor en el Salon</li>
+                    </ul>
+                </div>
+            </div>
+
+                <div class="tabla">
+                    <div class="titulo">
+    
+                        <h2>PASE LIBRE</h2>
+                    </div>
+    
+                    <div class="precio">
+                        <h3>$ <span>12.000</span></h3>
+                    </div>
+    
+                    <div class="descripcion">
+                        <ul>
+                            <li><i class="fa fa-check"></i> Clases Libres</li>
+                        <li><i class="fa fa-check"></i> Todos los dias del mes</li>
+                        <li><i class="fa fa-check"></i> Acceso a todos los servicios</li>
+                        <li><i class="fa fa-check"></i> Profesor en el Salon</li>
+                        <li><i class="fa fa-check"></i> Descuentos en Tienda Saludable e Indumentaria</li>
+                        <li><i class="fa fa-check"></i> Acceso Full al Salon</li>
+                        </ul>
+                    </div>
+        </div>
+
+
+    </section>
+
+    <!-- SECCION COMODIDADES -->
+    <section id="comodidades" class="comodidades">
+        <div class="fila">
+            <div class="col">
+                <img src="img/nosotros.png" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+
+                    <div class="info">
+                   
+                        <h2>COMODIDADES</h2>
+                    </div>
+                </div>
+               
+                <ul>
+                    <li><span>VESTUARIOS</span> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos tenetur, nam
+                        cumque adipisci ratione obcaecati impedit inventore eligendi</li>
+                        <li><span>ARMARIO INDIVIDUAL</span> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos tenetur, nam
+                            cumque adipisci ratione obcaecati impedit inventore eligendi</li>
+                    <li><span>WIFI GRATIS</span> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos tenetur,
+                        nam cumque adipisci ratione obcaecati impedit inventore</li>
+                    <li><span>DUCHAS</span> - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eos tenetur, nam cumque adipisci ratione obcaecati impedit?</li>
+                        <li><span>ATLAS GYM TIENDA</span> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos tenetur, nam
+                            cumque adipisci ratione obcaecati impedit inventore eligendi</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION GALERIA -->
+    <section class="galeria" id="galeria">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+
+                <div class="info">
+                   
+                    <h2>GALERIA</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/f1.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f2.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f3.jpg" alt="">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/f4.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f5.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+
+                <div class="info">
+        
+                    <h2>CONTACTO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Ingrese Email">
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Ingrese Nombre">
+                </div>
+            </div>
+            <div class="mensaje">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Ingresa el Mensaje"></textarea>
+                <button>Enviar Mensaje</button>
+            </div>
+            <div class="fila-datos">
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Calle Francia 1812
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-phone"></i>
+                    3865 - 456788
+                </div>
+                <div class="col">
+                    <i class="fa-regular fa-clock"></i>
+                    Lunes a Sábado, 8:00h - 24:00h
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="info">
+            <p>Desarrollado por <span class="txtRojo">RAMIRO ATENCIO</span>- 2024- TODOS LOS DERECHOS RESERVADOS </p>
+            <div class="redes">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+            </div>
+        </div>
+    </footer>
+    
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=5195508107&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." 
+    class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ <script src="app.js"></script>
+
+</html>
